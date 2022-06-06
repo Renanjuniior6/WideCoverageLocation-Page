@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.headers {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    width: 83px;
+    height: 21px;
+    margin-top: 47px;
+    margin-left: 42px;
+    cursor: pointer;
+    letter-spacing: 0.875px;
+}
+
+header button {
+    width: 124px;
+    height: 51px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    margin-left: 32px;
+    margin-top: 47px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+}
+
+.image {
+    margin-top: 130px;
+    margin-left: 121px;
+    width: 533.83px;
+    height: 466.9px;
+    
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700, Bold;
+    color: #161A49;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+}
+
+main {
+    display: inline-block;
+    margin-top: 25px;
+    
+    
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.98px;
+    
+   
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+#learn {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:700px) {
+
+    .image {
+        display: block;
+        margin: 20px;
+        padding: 0;
+    }
+
+    .headers{
+        margin: 14px;
+        margin-top: 10px;
+    }
+
+    section {
+        margin: 37px;
+        padding: 0;
+    }
+
+    header {
+        margin-top: 33px;
+    }
+
+    
+    
+    
+
+
+
+
+
+
+}
