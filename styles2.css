@@ -5,6 +5,10 @@
     font-family: 'Poppins';
 }
 
+body {
+ height: 120vh;
+}
+
 .headers {
     font-weight: 400;
     font-size: 14px;
@@ -16,6 +20,11 @@
     margin-left: 42px;
     cursor: pointer;
     letter-spacing: 0.875px;
+}
+
+.headers:hover {
+   color:  #6FBF44; 
+   
 }
 
 header button {
@@ -33,6 +42,14 @@ header button {
     line-height: 24px;
     letter-spacing: 1px;
 
+}
+
+header button:hover {
+    opacity: 0.8;
+}
+
+header {
+    margin-left: 117px;
 }
 
 .image {
@@ -115,13 +132,30 @@ p {
         margin-top: 33px;
     }
 
-    
-    
-    
+}
 
+@media screen and (max-width:430px) {
+    header {
+        margin-left: 27px;
+      
+    }
 
+    .image {
+        width: 482.83px;
+        height: 428.9px;
+    }
 
+    section {
+        width: 353px;
+    }
 
+    header button {
+        margin-left: 8px;
+        margin-right: 1px;
+    }
 
+    main {
+        margin-left: 40px;
+    }
 
 }
